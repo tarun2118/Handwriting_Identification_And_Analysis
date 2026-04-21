@@ -29,3 +29,35 @@ Upload a handwritten image → get:
 - Writer Prediction
 - OCR Text
 - Enhanced Notes
+
+## 📂 Project Structure
+HANDWRITING_AI/
+├── app.py # Streamlit web app
+├── pipeline.py # Main pipeline logic
+├── segment_lines.py # Line segmentation
+├── predict_writer.py # Writer identification
+├── ocr_trocr.py # OCR using TrOCR
+├── enhance_notes.py # Notes enhancement
+├── train_writer_id.py # Model training
+├── create_writer_id_csv.py # Dataset labeling
+│
+├── writer_id_best.pt # Trained model
+├── writer_id.csv # Dataset labels
+├── test_page.png # Sample input
+│
+├── Dataset/ # (Not uploaded - large size)
+└── README.md
+
+## ▶️ Run the Project
+--on terminal run:
+streamlit run app.py
+
+📊 Dataset Section
+- Multi-writer handwritten dataset
+- Pages segmented into line-level images
+- Dataset not uploaded due to large size (~776MB)
+
+## Models Used
+- ResNet18 → Writer Identification
+- TrOCR → Handwriting OCR
+- NLP Model / API → Notes Enhancement
