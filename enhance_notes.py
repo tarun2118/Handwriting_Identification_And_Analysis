@@ -5,7 +5,7 @@ import re
 # CREATE CLIENT
 # ------------------------------------------------
 
-client = genai.Client(api_key="AIzaSyBspekisawJeBmPgVXbD6e4S-cxSOyKAO0")
+client = genai.Client(api_key="enter_your_api_key")
 
 
 # ------------------------------------------------
