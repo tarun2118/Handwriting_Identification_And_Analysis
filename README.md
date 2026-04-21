@@ -1,7 +1,5 @@
 # Handwriting_Identification_And_Analysis
 
-# 🧠 AI-Based Handwriting Analysis System
-
 This project is a machine learning-based system that analyzes handwritten documents and performs:
 
 - ✍️ Writer Identification
